@@ -1,6 +1,6 @@
 # Sensor Control Web Dashboard
 
-A **React + Vite + TypeScript** web application for real-time vehicle sensor monitoring, control, and telemetry tracking. Built with **Material-UI** for a modern and responsive interface, integrated with a **Flask + Firebase backend** via REST APIs and **Socket.IO** for live telemetry updates.
+A web application for real-time vehicle sensor monitoring, control, and telemetry tracking. Built with **Material-UI** for a modern and responsive interface, integrated with a **Flask + Firebase backend** via REST APIs and **Socket.IO** for live telemetry updates.
 
 ---
 
@@ -28,8 +28,7 @@ nitk01/
 │   ├── types/             # TypeScript type definitions
 │   ├── theme.ts           # Material-UI theme configuration
 │   ├── App.tsx            # Main routing component
-│   └── main.tsx           # Application entry point
-├── .env                   # Environment variables (API base URL)
+│   └── main.tsx           # Application entry point              
 ├── package.json           # Dependencies and scripts
 └── README.md              # This file
 ```
@@ -43,37 +42,6 @@ nitk01/
 - **Node.js** (v18+ recommended)
 - **Backend running** — Flask server at `http://127.0.0.1:5000` (or configure `.env`)
 
-### Installation
-
-1. **Clone or navigate to this project:**
-
-   ```bash
-   cd c:\Users\kiran\OneDrive\Desktop\nitk01
-   ```
-
-2. **Install dependencies:**
-
-   ```bash
-   npm install
-   ```
-
-3. **Configure backend URL** (optional):
-
-   Edit `.env` to point to your Flask server:
-
-   ```
-   VITE_API_BASE=http://127.0.0.1:5000
-   ```
-
-4. **Start the dev server:**
-
-   ```bash
-   npm run dev
-   ```
-
-   The app will be available at `http://localhost:5173/` (or next available port).
-
----
 
 ## Backend Requirements
 
