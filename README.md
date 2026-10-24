@@ -125,14 +125,4 @@ The app integrates seamlessly with the existing **Expo React Native** sensor app
 
 ---
 
-## Notes
 
-- Replace `http://127.0.0.1:5000` in `.env` with your actual backend URL (e.g., deployed server).
-- Ensure CORS is enabled on the backend for web clients.
-- The backend must **broadcast** telemetry via Socket.IO on every sensor update for live dashboard updates.
-
----
-
-## License
-
-This is a demonstration project. Use at your own discretion.
